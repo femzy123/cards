@@ -36,3 +36,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deployment
 
+https://cards-pearl-seven.vercel.app/
