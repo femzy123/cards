@@ -3,5 +3,6 @@ type Card = {
   name: string;
   imageUrl: string;
   text: string;
-  type: string;
+  types: string[];
+  rarity: string;
 }
