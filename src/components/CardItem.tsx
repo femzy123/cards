@@ -8,7 +8,7 @@ type Props = {
 
 const CardItem = ({card}: Props) => {
   return (
-    <div className="max-w-[200px] border border-gray-300 rounded-sm py-2 hover:shadow-xl hover:scale-105">
+    <div className="max-w-[200px] border border-gray-300 rounded-sm py-2 hover:shadow-xl hover:scale-105 mx-auto">
       <div className="px-2 space-y-2">
         <img
           src={card.imageUrl ? card.imageUrl : "https://placehold.co/200x250"}
