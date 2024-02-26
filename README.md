@@ -1,5 +1,5 @@
 # Cards
-This is an app that lists cards with infinite scrolling and search functionality. It was built using Nextjs 14 latest features like App Router and Server Actions. [react-infinite-scroll-component](https://www.npmjs.com/package/react-infinite-scroll-component) library was using to handle the Infinite scroll functionality.
+This is an app that lists cards with infinite scrolling and search functionality. It was built using Nextjs 14 latest features like App Router and Server Actions. [react-infinite-scroll-component](https://www.npmjs.com/package/react-infinite-scroll-component) library was using to handle the Infinite scroll functionality. [TailwindCSS](https://tailwindcss.com/) for styling.
 
 ## Components
 
@@ -19,6 +19,7 @@ This is an app that lists cards with infinite scrolling and search functionality
     - `useEffect` for applying initial search filter and fetching initial cards.
 - Employs `react-infinite-scroll-component` for infinite scrolling functionality.
 - Introduces a 500ms delay to simulate network requests when fetching more cards.
+- Added responsives using TailwindCSS
 
 ## Additional Notes
 
